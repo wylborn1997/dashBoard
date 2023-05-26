@@ -1,0 +1,18 @@
+/* .ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-has-trigger{
+  flex: 0 0 140px;
+  max-width: 140px;
+  min-width: 140px;
+  width: 140px;
+} */
+.ant-layout-sider-collapsed .ant-layout-sider-has-trigger{
+  width: 80px;
+}
+.ant-layout-sider-children{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+:where(.css-dev-only-do-not-override-w8mnev).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+  width: 100%;
+}

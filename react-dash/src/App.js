@@ -1,9 +1,12 @@
 import { hot } from "react-hot-loader/root";
 import "./App.css";
+import  Layout  from "./pages/Layout/Layout.js";
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Layout></Layout>
+    </div>
   );
 }
 
