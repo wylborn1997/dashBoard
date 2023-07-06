@@ -9,7 +9,7 @@ function DashHeader (params) {
   const headerTitle = '空桑发展报告'
   return (
     <Header
-      class="title"
+      className="title"
           style={{
             padding: 0,
             background: colorBgContainer,
